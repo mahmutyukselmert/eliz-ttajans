@@ -12966,6 +12966,11 @@ header nav.navbar .logo-wrapper {
   z-index: 1;
   max-width: 180px;
 }
+@media (max-width: 468px) {
+  header nav.navbar .logo-wrapper {
+    max-width: 100px;
+  }
+}
 header nav.navbar .custom-toggler {
   position: relative;
   border: none;
